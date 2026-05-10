@@ -1,0 +1,23 @@
+{
+  "name": "agentloop",
+  "version": "1.0.0",
+  "description": "A flexible agent loop with tools, skills, and MCP support",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "agentloop": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "dev": "node --watch bin/cli.js"
+  },
+  "keywords": ["ai", "agent", "llm"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.72.0"
+  }
+}
